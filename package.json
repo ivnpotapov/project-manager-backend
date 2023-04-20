@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/src/index.js",
+    "start": "nodemon dist/src/index.js",
     "dev": "ts-node-dev --respawn src/index.ts",
     "build": "tsc",
     "test": "test"
@@ -29,6 +29,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.22",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.4"
   },
